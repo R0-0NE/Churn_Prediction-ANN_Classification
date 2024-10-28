@@ -7,22 +7,23 @@ Customer churn is a critical metric for customer-centric businesses, as retainin
 ### Data Overview
 The dataset contains the following key features:
 
-CreditScore: Credit score of the customer
-Geography: Customer’s location (encoded as France, Spain, and Germany)
-Gender: Gender of the customer (binary encoded)
-Age: Age of the customer
-Tenure: Number of years with the bank
-Balance: Account balance
-NumOfProducts: Number of products held by the customer
-HasCrCard: Credit card status (binary)
-IsActiveMember: Active membership status (binary)
-EstimatedSalary: Estimated annual salary
-Exited: Churn status (target variable)
+1) CreditScore: Credit score of the customer
+2) Geography: Customer’s location (encoded as France, Spain, and Germany)
+3) Gender: Gender of the customer (binary encoded)
+4) Age: Age of the customer
+5) Tenure: Number of years with the bank
+6) Balance: Account balance
+7) NumOfProducts: Number of products held by the customer
+8) HasCrCard: Credit card status (binary)
+9) IsActiveMember: Active membership status (binary)
+10) EstimatedSalary: Estimated annual salary
+11) Exited: Churn status (target variable)
 
 ### Data Preprocessing
+
 ##### Feature Encoding:
-Binary encoding for Gender
-One-hot encoding for Geography
+. Binary encoding for Gender
+. One-hot encoding for Geography
 
 #### Scaling: StandardScaler is used to normalize numerical features for better ANN performance.
 
