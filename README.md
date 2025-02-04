@@ -1,4 +1,4 @@
-# Customer Churn Prediction with Artificial Neural Networks
+## Customer Churn Prediction with Artificial Neural Networks
 This project uses an Artificial Neural Network (ANN) to predict customer churn, based on customer demographics, account details, and transaction activity. By leveraging customer data, this model aims to classify customers as "churned" or "active," helping businesses identify potential churn and develop retention strategies.
 
 ### Project Overview
